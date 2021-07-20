@@ -10,4 +10,4 @@ This repository is used to build this [site](https://dcl-docs.github.io/curricul
 
 ## Site structure and build process
 
-If you would like to use or adapt this site for other purposes, the site structure and build process is described in this [document](setup.md).
+If you would like to use or adapt this site for other purposes, the site structure and build process is described in this [document](site.md).
