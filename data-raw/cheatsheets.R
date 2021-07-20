@@ -1,0 +1,30 @@
+library(tidyverse)
+library(rvest)
+
+page <- read_html("https://www.rstudio.com/resources/cheatsheets/")
+
+boxes <-
+  page %>%
+  html_elements("div.col-md-11 > div.row > div.col-md-7")
+
+title <-
+  boxes %>%
+  html_element("h3") %>%
+  html_text() %>%
+  str_replace_all("\\s", " ")
+
+href <-
+  boxes %>%
+  html_element("p:last-of-type > a") %>%
+  html_attr("href")
+
+id <-
+  href %>%
+  basename() %>%
+  tools::file_path_sans_ext()
+
+cheatsheets <- tibble(id, title, href)
+
+cheatsheets %>%
+  drop_na(id, title) %>% 
+  write_csv("data-raw/cheatsheets.csv")

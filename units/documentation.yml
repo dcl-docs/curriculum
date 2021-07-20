@@ -1,0 +1,11 @@
+title: Documentation
+theme: workflow
+needs: [setup]
+
+desc: |
+  Documentation is an important part of learning and using any programming language.
+  R and RStudio make is easy to find and use documentation. In this unit,
+  you'll learn about how to access any package's or function's documentation.
+  
+readings:
+- book: workflow-1

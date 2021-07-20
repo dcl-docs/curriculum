@@ -1,0 +1,13 @@
+title: Manipulation basics
+theme: wrangle
+needs: [data-basics]
+
+desc: |
+  The dplyr package contains a powerful set of data manipulation functions. In this
+  reading, you'll learn the basics of four important dplyr functions: `filter()`,
+  `mutate()`, `summarize()`, and `group_by()`.
+  
+readings:
+- book: wrangle-1
+
+
