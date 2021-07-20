@@ -16,7 +16,8 @@ title <-
 href <-
   boxes %>%
   html_element("p:last-of-type > a") %>%
-  html_attr("href")
+  html_attr("href") %>% 
+  str_replace("/raw/", "/blob/")
 
 id <-
   href %>%

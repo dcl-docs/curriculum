@@ -23,7 +23,7 @@ Note the two important R functions:
 
   * [Running R code](http://r4ds.had.co.nz/introduction.html#running-r-code) [r4ds-1.5]
 
-  * [RStudio IDE Cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/rstudio-ide.pdf) [cheatsheets-rstudio-ide].
+  * [RStudio IDE Cheatsheet](https://github.com/rstudio/cheatsheets/blob/master/rstudio-ide.pdf) [cheatsheets-rstudio-ide].
     You don't need to read the complete cheatsheet, but you should know that it
     exists.
 
