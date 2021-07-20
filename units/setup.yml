@@ -14,6 +14,9 @@ desc: |
 duration: 15-45
 
 readings:
+- href: https://tidyverse.tidyverse.org/articles/paper.html
+  text: Welcome to the Tidyverse
+
 - book: r4ds-1.4
 
 - book: r4ds-1.5

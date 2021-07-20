@@ -19,6 +19,8 @@ Note the two important R functions:
 
 ## Readings
 
+  * [Welcome to the Tidyverse](https://tidyverse.tidyverse.org/articles/paper.html)
+
   * [Prerequisites](http://r4ds.had.co.nz/introduction.html#prerequisites) [r4ds-1.4]
 
   * [Running R code](http://r4ds.had.co.nz/introduction.html#running-r-code) [r4ds-1.5]
