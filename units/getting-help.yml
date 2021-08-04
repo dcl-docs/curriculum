@@ -1,0 +1,10 @@
+title: Getting help
+theme: communicate
+needs: documentation
+desc: |
+  It's important to understand how (and when) to ask for help. In this reading,
+  you'll learn where to go to ask your R questions and how to ask those
+  questions effectively with the help of the reprex package.
+  
+readings:
+- book: workflow-8

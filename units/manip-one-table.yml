@@ -1,0 +1,10 @@
+title: Other single-table verbs
+theme: wrangle
+needs: manip-basics
+desc: |
+  You've already learned the basics of manipulating data with dplyr. This reading
+  builds on that knowledge by introducing some additional (and very useful) dplyr
+  functions.
+  
+readings: 
+- book: wrangle-2
