@@ -5,7 +5,8 @@ title: Exploratory data analysis (1D)
 <!-- Generated automatically from eda-1d.yml. Do not edit by hand -->
 
 # Exploratory data analysis (1D) <small class='explore'>[explore]</small>
-<small>(Builds on: [Visualization basics](vis-basics.md), [Manipulation basics](manip-basics.md))</small>
+<small>(Builds on: [Visualization basics](vis-basics.md), [Manipulation basics](manip-basics.md))</small>  
+<small>(Leads to: [Function basics](function-basics.md), [Essentials of relational data](relational-basics.md), [String basics](string-basics.md))</small>
 
 
 Exploratory data analysis is partly a set of techniques, but is mostly a

@@ -1,0 +1,11 @@
+title: Parsing basics
+theme: wrangle
+needs: [data-structure-basics, manip-basics]
+
+desc: |
+  Most of the data you'll want to use won't be nicely bundled into a package. You'll
+  need to read it into R, parsing the file to create a tibble. The readr package
+  contains useful functions for reading in and parsing a variety of file types.
+
+readings:
+- book: wrangle-3
