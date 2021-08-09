@@ -8,7 +8,7 @@ title: Exploratory data analysis (2D)
 <small>(Builds on: [Exploratory data analysis (1D)](eda-1d.md))</small>
 
 Exploratory data analysis is partly a set of techniques, but is mostly a
-mindset: you want to remain open to what the data is telling you.
+mindset: you want to be curious and open to what the data is telling you.
 
 ## Readings
 

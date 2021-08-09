@@ -10,8 +10,8 @@ title: Column-wise operations
 
 Often, you'll want to apply the same operation to multiple tibble columns at
 once. `across()` extends the dplyr verbs, allowing you to easily manipulate
-multiple columns in functions such as `mutate()` or `summarize()`, at the
-same time saving you time and typing energy.
+multiple columns in functions such as `mutate()` or `summarize()` while
+saving you time and typing energy.
 
 ## Readings
 
