@@ -1,0 +1,13 @@
+title: Column-wise operations
+theme: wrangle
+needs: manip-basics
+
+desc: |
+  Often, you'll want to apply the same operation to multiple tibble columns at
+  once. `across()` extends the dplyr verbs, allowing you to easily manipulate
+  multiple columns in functions such as `mutate()` or `summarize()`, at the
+  same time saving you time and typing energy.
+  
+readings:
+- href: https://dplyr.tidyverse.org/articles/colwise.html
+  text: Column-wise operations
