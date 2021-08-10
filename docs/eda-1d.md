@@ -24,7 +24,7 @@ you’ll learn in the readings, another quick and dirty function is
 `count()`.
 
 `df %>% count(grp)` is shorthand for
-`df %>% group_by(grp) %>% summarise(n = n())`.
+`df %>% group_by(grp) %>% summarize(n = n())`.
 
 ``` r
 flights %>% 

@@ -6,7 +6,7 @@ title: Data structure basics
 
 # Data structure basics <small class='program'>[program]</small>
 <small>(Builds on: [Manipulation basics](manip-basics.md))</small>  
-<small>(Leads to: [Function basics](function-basics.md), [Parsing basics](parse-basics.md))</small>
+<small>(Leads to: [Date/time basics](datetime-basics.md), [Function basics](function-basics.md), [Parsing basics](parse-basics.md))</small>
 
 Vectors are fundamental to almost everything you'll do in R. You'll almost 
 always work with atomic vectors, lists (which are a type of vector), or 

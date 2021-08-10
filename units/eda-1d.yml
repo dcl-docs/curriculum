@@ -14,7 +14,7 @@ desc: "\nExploratory data analysis is partly a set of techniques, but is mostly 
   look at the variable by itself, before you start\ncombining it with other variables.
   As well as the visual techniques\nyou’ll learn in the readings, another quick and
   dirty function is\n`count()`.\n\n`df %>% count(grp)` is shorthand for\n`df %>% group_by(grp)
-  %>% summarise(n = n())`.\n\n``` r\nflights %>% \n  count(carrier)\n#> # A tibble:
+  %>% summarize(n = n())`.\n\n``` r\nflights %>% \n  count(carrier)\n#> # A tibble:
   16 × 2\n#>    carrier     n\n#>    <chr>   <int>\n#>  1 9E      18460\n#>  2 AA
   \     32729\n#>  3 AS        714\n#>  4 B6      54635\n#>  5 DL      48110\n#>  6
   EV      54173\n#>  7 F9        685\n#>  8 FL       3260\n#>  9 HA        342\n#>

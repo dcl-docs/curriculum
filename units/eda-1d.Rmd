@@ -21,7 +21,7 @@ library(nycflights13)
 
 Whenever you start working with a new variable, it's a really good idea to first take a look at the variable by itself, before you start combining it with other variables. As well as the visual techniques you'll learn in the readings, another quick and dirty function is `count()`. 
 
-`df %>% count(grp)` is shorthand for `df %>% group_by(grp) %>% summarise(n = n())`. 
+`df %>% count(grp)` is shorthand for `df %>% group_by(grp) %>% summarize(n = n())`. 
 
 ```{r}
 flights %>% 
