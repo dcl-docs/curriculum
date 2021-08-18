@@ -15,6 +15,6 @@ order is rarely the best order.
 
   * [Factors](http://r4ds.had.co.nz/factors.html) [r4ds-15]
 
-  * [Factors with forcats](https://github.com/rstudio/cheatsheets/blob/master/factors.pdf)
+  * [Factors with forcats Cheatsheet](https://github.com/rstudio/cheatsheets/blob/master/factors.pdf) [cheatsheets-factors]
 
 

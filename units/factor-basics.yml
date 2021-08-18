@@ -9,5 +9,4 @@ desc: |
 
 readings:
 - book: r4ds-15
-- href: https://github.com/rstudio/cheatsheets/blob/master/factors.pdf
-  text: Factors with forcats
+- book: cheatsheets-factors

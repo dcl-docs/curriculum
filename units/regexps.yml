@@ -10,7 +10,6 @@ desc: |
 readings:
 - book: r4ds-14.3
 - book: r4ds-14.4
-- href: https://github.com/rstudio/cheatsheets/blob/master/strings.pdf
-  text: String manipulation with stringr cheat sheet
+- book: cheatsheets-strings
   desc: >
     The Regular Expressions section is a very helpful reference.

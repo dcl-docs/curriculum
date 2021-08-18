@@ -5,7 +5,7 @@ title: Tidy data
 <!-- Generated automatically from tidy-data.yml. Do not edit by hand -->
 
 # Tidy data <small class='wrangle'>[wrangle]</small>
-<small>(Leads to: [Basic pivoting](pivot-1.md))</small>
+<small>(Leads to: [Parsing details](parse-details.md), [Basic pivoting](pivot-1.md))</small>
 
 A __tidy__ data frame is a data frame (or tibble) where the variables are in
 the columns, and the cases (or observations) are in the rows. All the of the
