@@ -6,7 +6,7 @@ title: purrr basics
 
 # purrr basics <small class='program'>[program]</small>
 <small>(Builds on: [Function basics](function-basics.md))</small>  
-<small>(Leads to: [List-columns](list-cols.md), [purrr map with multiple inputs](purrr-parallel.md))</small>
+<small>(Leads to: [List-columns](list-cols.md), [Other purrr functions](purrr-extras.md), [purrr map with multiple inputs](purrr-parallel.md))</small>
 
 You'll often want to apply the same function to each element of a list or
 vector. Extracting each element and applying that function would be tedious, 

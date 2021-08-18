@@ -1,0 +1,11 @@
+title: Model evaluation
+theme: model
+needs: [model-fit]
+
+desc: |
+  After you’ve used EDA to understand your data and identify potential function
+  families with which to model, you can fit models for each of these function
+  families. Now, you'll learn how to compare and evaluate the resulting models.
+  
+readings:
+- book: model-5

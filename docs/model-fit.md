@@ -5,7 +5,8 @@ title: Model fitting
 <!-- Generated automatically from model-fit.yml. Do not edit by hand -->
 
 # Model fitting <small class='model'>[model]</small>
-<small>(Builds on: [Model EDA](model-eda.md))</small>
+<small>(Builds on: [Model EDA](model-eda.md))</small>  
+<small>(Leads to: [Model evaluation](model-eval.md))</small>
 
 You've already learned how to visualize and explore your data in preparation
 for basic modeling. Now, you'll learn how to fit models using a new set

@@ -5,7 +5,8 @@ title: R Markdown basics
 <!-- Generated automatically from rmarkdown-basics.yml. Do not edit by hand -->
 
 # R Markdown basics <small class='communicate'>[communicate]</small>
-<small>(Builds on: [Setup](setup.md))</small>
+<small>(Builds on: [Setup](setup.md))</small>  
+<small>(Leads to: [R Markdown presentations](rmarkdown-formats.md))</small>
 
 Experience the full data science workflow by creating an RMarkdown file that
 includes prose and code. __Knit__ the file to create output that intermingles

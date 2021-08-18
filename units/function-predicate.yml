@@ -1,0 +1,11 @@
+title: Predicate functions
+theme: program
+needs: function-basics
+
+desc: |
+  Predicate functions, which return a single `TRUE` or `FALSE` on all inputs,
+  are another useful tool in functional programming. Some functions take
+  predicate functions as arguments.
+
+readings:
+- book: prog-7
