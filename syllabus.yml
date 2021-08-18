@@ -1,0 +1,80 @@
+cur-week: 10
+
+weeks:
+  week-01:
+  - setup
+  - documentation
+  - code-style
+  - tidy-data
+  - data-basics
+  - vis-basics
+  - manip-basics
+  - rmarkdown-basics
+
+  week-02:
+  - vis-discrete-continuous
+  - pivot-1
+  - manip-one-table
+  - data-structure-basics
+  - eda-1d
+  - vis-strategy
+  - vis-calls
+  - getting-help
+
+  week-03:
+  - relational-basics
+  - vis-scales
+  - tidycensus
+  - function-basics
+  - string-basics
+  - parse-basics
+  - factor-basics
+
+  week-04:
+  - purrr-basics
+  - eda-2d
+  - manip-colwise
+  - scripts
+  - pivot-2
+  - vis-distributions
+  - tidy-eval
+  - project-workflow
+
+  week-05:
+  - datetime-basics
+  - function-vector
+  - manip-rowwise
+  - spatial-basics
+  - vis-continuous-continuous
+
+  week-06:
+  - list-cols
+  - regexps
+  - vis-time-series
+  - census-bureau-apis
+  - model-basics
+
+  week-07:
+  - purrr-parallel
+  - timespans
+  - rvest
+  - model-eda
+  - spatial-vis
+  
+  week-08:
+  - parse-details
+  - model-fit
+  - string-details
+
+  week-09:
+  - function-predicate
+  - purrr-extras
+  - rmarkdown-formats
+  - model-eval
+
+  week-10:
+  - workflow-rmarkdown
+  - ggplot2-exts
+  - googlesheets
+  - dplyr-databases
+  - learning-more

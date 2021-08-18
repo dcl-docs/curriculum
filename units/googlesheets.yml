@@ -1,0 +1,13 @@
+title: Google Sheets
+theme: wrangle
+needs: parse-basics
+
+desc: |
+  Google Sheets are a useful place to store and edit data, especially if you're 
+  collaborating with others. The googlesheets4 package allows you to easily read 
+  from and write to Google Sheets from R. In this reading, you'll learn how to
+  use the googlesheets4 pacakge to extract data from any Google Sheet you have
+  access to.
+  
+readings:
+- book: wrangle-10

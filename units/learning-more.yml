@@ -1,0 +1,11 @@
+title: Learning more
+theme: workflow
+needs: [getting-help]
+
+desc: |
+  The process of learning, whether R or anything else, should never be over! Here,
+  we'll list some ways to help you continue learning R and data science and stay
+  up-to-date with new developments. 
+
+readings:
+- book: workflow-2
