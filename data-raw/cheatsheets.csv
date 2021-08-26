@@ -1,18 +1,17 @@
 id,title,href
-plumber,Web APIs for R with plumber Cheatsheet,https://github.com/rstudio/cheatsheets/blob/master/plumber.pdf
-reticulate,Python with R and Reticulate Cheatsheet,https://github.com/rstudio/cheatsheets/blob/master/reticulate.pdf
-factors,Factors with forcats Cheatsheet,https://github.com/rstudio/cheatsheets/blob/master/factors.pdf
-tidyeval,Tidy Evaluation with rlang Cheatsheet,https://github.com/rstudio/cheatsheets/blob/master/tidyeval.pdf
-keras,Deep Learning with Keras Cheatsheet,https://github.com/rstudio/cheatsheets/blob/master/keras.pdf
-lubridate,Dates and Times Cheatsheet,https://github.com/rstudio/cheatsheets/blob/master/lubridate.pdf
-strings,Work with Strings Cheatsheet,https://github.com/rstudio/cheatsheets/blob/master/strings.pdf
-purrr,Apply Functions Cheatsheet,https://github.com/rstudio/cheatsheets/blob/master/purrr.pdf
-data-import,Data Import Cheatsheet,https://github.com/rstudio/cheatsheets/blob/master/data-import.pdf
-data-transformation,Data Transformation Cheatsheet,https://github.com/rstudio/cheatsheets/blob/master/data-transformation.pdf
-sparklyr,Sparklyr Cheatsheet,https://github.com/rstudio/cheatsheets/blob/master/sparklyr.pdf
-rmarkdown-2.0,R Markdown Cheatsheet,https://github.com/rstudio/cheatsheets/blob/master/rmarkdown-2.0.pdf
-rstudio-ide,RStudio IDE Cheatsheet,https://github.com/rstudio/cheatsheets/blob/master/rstudio-ide.pdf
-shiny,Shiny Cheatsheet,https://github.com/rstudio/cheatsheets/blob/master/shiny.pdf
-data-visualization-2.1,Data Visualization Cheatsheet,https://github.com/rstudio/cheatsheets/blob/master/data-visualization-2.1.pdf
-package-development,Package Development Cheatsheet,https://github.com/rstudio/cheatsheets/blob/master/package-development.pdf
-rmarkdown-reference,R Markdown Reference Guide,https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf
+data-import," Data import with readr, readxl, and googlesheets4 cheatsheet ",https://github.com/rstudio/cheatsheets/blob/master/data-import.pdf
+data-transformation, Data transformation with dplyr cheatsheet ,https://github.com/rstudio/cheatsheets/blob/master/data-transformation.pdf
+data-visualization, Data visualization with ggplot2 cheatsheet ,https://github.com/rstudio/cheatsheets/blob/master/data-visualization.pdf
+factors, Factors with forcats cheatsheet ,https://github.com/rstudio/cheatsheets/blob/master/factors.pdf
+keras, Deep learning with Keras cheatsheet ,https://github.com/rstudio/cheatsheets/blob/master/keras.pdf
+lubridate, Dates and times with lubridate cheatsheet ,https://github.com/rstudio/cheatsheets/blob/master/lubridate.pdf
+package-development, Package development with devtools cheatsheet ,https://github.com/rstudio/cheatsheets/blob/master/package-development.pdf
+plumber, Web APIs for R with plumber cheatsheet ,https://github.com/rstudio/cheatsheets/blob/master/plumber.pdf
+purrr, Apply functions with purrr cheatsheet ,https://github.com/rstudio/cheatsheets/blob/master/purrr.pdf
+reticulate, Python with R and reticulate cheatsheet ,https://github.com/rstudio/cheatsheets/blob/master/reticulate.pdf
+rmarkdown, Dynamic documents with rmarkdown cheatsheet ,https://github.com/rstudio/cheatsheets/blob/master/rmarkdown.pdf
+rstudio-ide, RStudio IDE cheatsheet ,https://github.com/rstudio/cheatsheets/blob/master/rstudio-ide.pdf
+shiny, Interactive wep apps with shiny cheatsheet ,https://github.com/rstudio/cheatsheets/blob/master/shiny.pdf
+sparklyr, Data science in Spark with sparklyr cheatsheet ,https://github.com/rstudio/cheatsheets/blob/master/sparklyr.pdf
+strings, String manipulation with stringr cheatsheet ,https://github.com/rstudio/cheatsheets/blob/master/strings.pdf
+tidyr, Data tidying with tidyr cheatsheet ,https://github.com/rstudio/cheatsheets/blob/master/tidyr.pdf

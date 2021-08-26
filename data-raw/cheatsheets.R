@@ -9,7 +9,7 @@ boxes <-
 
 title <-
   boxes %>%
-  html_element("h3") %>%
+  html_element("h1") %>%
   html_text() %>%
   str_replace_all("\\s", " ")
 
@@ -24,8 +24,10 @@ id <-
   basename() %>%
   tools::file_path_sans_ext()
 
-cheatsheets <- tibble(id, title, href)
+cheatsheets <- 
+  tibble(id, title, href) %>% 
+  drop_na() %>% 
+  arrange(id)
 
 cheatsheets %>%
-  drop_na(id, title) %>% 
   write_csv("data-raw/cheatsheets.csv")
