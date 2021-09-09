@@ -13,10 +13,10 @@ workflow.
 
 ## Readings
 
-  * [Introduction](https://dcl-workflow.stanford.edu/project-workflow.html) [workflow-4]
+  * [Introduction](https://dcl-workflow.stanford.edu/project-workflow.html) [workflow-5]
 
-  * [Setup](https://dcl-workflow.stanford.edu/project-setup.html) [workflow-5]
+  * [Setup](https://dcl-workflow.stanford.edu/project-setup.html) [workflow-6]
 
-  * [Organization](https://dcl-workflow.stanford.edu/organization.html) [workflow-6]
+  * [Organization](https://dcl-workflow.stanford.edu/organization.html) [workflow-7]
 
 

@@ -13,6 +13,6 @@ how and when to use scripts.
 
 ## Readings
 
-  * [Scripts](https://dcl-workflow.stanford.edu/scripts.html) [workflow-7]
+  * [Scripts](https://dcl-workflow.stanford.edu/scripts.html) [workflow-8]
 
 

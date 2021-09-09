@@ -16,12 +16,12 @@ desc: |
 #  make it very easy to apply the tidyverse style guide automatically.
 
 readings:
-- book: workflow-12
+- book: workflow-3
 
 - href: http://style.tidyverse.org
-  text: Style guide
+  text: The tidyverse style guide
   desc: >
     The official tidyverse style guide includes more information than the DCL 
-    style guide. Take a look at chapters 1-5. 
+    style guide. Take a look at sections 1-5. 
     
 
