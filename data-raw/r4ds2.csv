@@ -1,0 +1,566 @@
+id,title,depth,href
+1,Introduction,1,https://r4ds.hadley.nz/intro.html
+1.1,What you will learn,2,https://r4ds.hadley.nz/intro.html#what-you-will-learn
+1.2,How this book is organized,2,https://r4ds.hadley.nz/intro.html#how-this-book-is-organized
+1.3,What you won’t learn,2,https://r4ds.hadley.nz/intro.html#what-you-wont-learn
+1.3.1,Modeling,3,https://r4ds.hadley.nz/intro.html#modeling
+1.3.2,Big data,3,https://r4ds.hadley.nz/intro.html#big-data
+1.3.3,"Python, Julia, and friends",3,https://r4ds.hadley.nz/intro.html#python-julia-and-friends
+1.4,Prerequisites,2,https://r4ds.hadley.nz/intro.html#prerequisites
+1.4.1,R,3,https://r4ds.hadley.nz/intro.html#r
+1.4.2,RStudio,3,https://r4ds.hadley.nz/intro.html#rstudio
+1.4.3,The tidyverse,3,https://r4ds.hadley.nz/intro.html#the-tidyverse
+1.4.4,Other packages,3,https://r4ds.hadley.nz/intro.html#other-packages
+1.5,Running R code,2,https://r4ds.hadley.nz/intro.html#running-r-code
+1.6,Acknowledgments,2,https://r4ds.hadley.nz/intro.html#acknowledgments
+1.7,Colophon,2,https://r4ds.hadley.nz/intro.html#colophon
+2,Data visualization,1,https://r4ds.hadley.nz/data-visualize.html
+2.1,Introduction,2,https://r4ds.hadley.nz/data-visualize.html#introduction
+2.1.1,Prerequisites,3,https://r4ds.hadley.nz/data-visualize.html#prerequisites
+2.2,First steps,2,https://r4ds.hadley.nz/data-visualize.html#first-steps
+2.2.1,The penguins data frame,3,https://r4ds.hadley.nz/data-visualize.html#the-penguins-data-frame
+2.2.2,Ultimate goal,3,https://r4ds.hadley.nz/data-visualize.html#sec-ultimate-goal
+2.2.3,Creating a ggplot,3,https://r4ds.hadley.nz/data-visualize.html#creating-a-ggplot
+2.2.4,Adding aesthetics and layers,3,https://r4ds.hadley.nz/data-visualize.html#sec-adding-aesthetics-layers
+2.2.5,Exercises,3,https://r4ds.hadley.nz/data-visualize.html#exercises
+2.3,ggplot2 calls,2,https://r4ds.hadley.nz/data-visualize.html#sec-ggplot2-calls
+2.4,Visualizing distributions,2,https://r4ds.hadley.nz/data-visualize.html#visualizing-distributions
+2.4.1,A categorical variable,3,https://r4ds.hadley.nz/data-visualize.html#a-categorical-variable
+2.4.2,A numerical variable,3,https://r4ds.hadley.nz/data-visualize.html#a-numerical-variable
+2.4.3,Exercises,3,https://r4ds.hadley.nz/data-visualize.html#exercises-1
+2.5,Visualizing relationships,2,https://r4ds.hadley.nz/data-visualize.html#visualizing-relationships
+2.5.1,A numerical and a categorical variable,3,https://r4ds.hadley.nz/data-visualize.html#a-numerical-and-a-categorical-variable
+2.5.2,Two categorical variables,3,https://r4ds.hadley.nz/data-visualize.html#two-categorical-variables
+2.5.3,Two numerical variables,3,https://r4ds.hadley.nz/data-visualize.html#two-numerical-variables
+2.5.4,Three or more variables,3,https://r4ds.hadley.nz/data-visualize.html#three-or-more-variables
+2.5.5,Exercises,3,https://r4ds.hadley.nz/data-visualize.html#exercises-2
+2.6,Saving your plots,2,https://r4ds.hadley.nz/data-visualize.html#sec-ggsave
+2.6.1,Exercises,3,https://r4ds.hadley.nz/data-visualize.html#exercises-3
+2.7,Common problems,2,https://r4ds.hadley.nz/data-visualize.html#common-problems
+2.8,Summary,2,https://r4ds.hadley.nz/data-visualize.html#summary
+3,Workflow: basics,1,https://r4ds.hadley.nz/workflow-basics.html
+3.1,Coding basics,2,https://r4ds.hadley.nz/workflow-basics.html#coding-basics
+3.2,Comments,2,https://r4ds.hadley.nz/workflow-basics.html#comments
+3.3,What’s in a name?,2,https://r4ds.hadley.nz/workflow-basics.html#sec-whats-in-a-name
+3.4,Calling functions,2,https://r4ds.hadley.nz/workflow-basics.html#calling-functions
+3.5,Exercises,2,https://r4ds.hadley.nz/workflow-basics.html#exercises
+3.6,Summary,2,https://r4ds.hadley.nz/workflow-basics.html#summary
+4,Data transformation,1,https://r4ds.hadley.nz/data-transform.html
+4.1,Introduction,2,https://r4ds.hadley.nz/data-transform.html#introduction
+4.1.1,Prerequisites,3,https://r4ds.hadley.nz/data-transform.html#prerequisites
+4.1.2,nycflights13,3,https://r4ds.hadley.nz/data-transform.html#nycflights13
+4.1.3,dplyr basics,3,https://r4ds.hadley.nz/data-transform.html#dplyr-basics
+4.2,Rows,2,https://r4ds.hadley.nz/data-transform.html#rows
+4.2.1,filter(),3,https://r4ds.hadley.nz/data-transform.html#filter
+4.2.2,Common mistakes,3,https://r4ds.hadley.nz/data-transform.html#common-mistakes
+4.2.3,arrange(),3,https://r4ds.hadley.nz/data-transform.html#arrange
+4.2.4,distinct(),3,https://r4ds.hadley.nz/data-transform.html#distinct
+4.2.5,Exercises,3,https://r4ds.hadley.nz/data-transform.html#exercises
+4.3,Columns,2,https://r4ds.hadley.nz/data-transform.html#columns
+4.3.1,mutate(),3,https://r4ds.hadley.nz/data-transform.html#sec-mutate
+4.3.2,select(),3,https://r4ds.hadley.nz/data-transform.html#sec-select
+4.3.3,rename(),3,https://r4ds.hadley.nz/data-transform.html#rename
+4.3.4,relocate(),3,https://r4ds.hadley.nz/data-transform.html#relocate
+4.3.5,Exercises,3,https://r4ds.hadley.nz/data-transform.html#exercises-1
+4.4,The pipe,2,https://r4ds.hadley.nz/data-transform.html#sec-the-pipe
+4.5,Groups,2,https://r4ds.hadley.nz/data-transform.html#groups
+4.5.1,group_by(),3,https://r4ds.hadley.nz/data-transform.html#group_by
+4.5.2,summarize(),3,https://r4ds.hadley.nz/data-transform.html#sec-summarize
+4.5.3,The slice_ functions,3,https://r4ds.hadley.nz/data-transform.html#the-slice_-functions
+4.5.4,Grouping by multiple variables,3,https://r4ds.hadley.nz/data-transform.html#grouping-by-multiple-variables
+4.5.5,Ungrouping,3,https://r4ds.hadley.nz/data-transform.html#ungrouping
+4.5.6,.by,3,https://r4ds.hadley.nz/data-transform.html#by
+4.5.7,Exercises,3,https://r4ds.hadley.nz/data-transform.html#exercises-2
+4.6,Case study: aggregates and sample size,2,https://r4ds.hadley.nz/data-transform.html#sec-sample-size
+4.7,Summary,2,https://r4ds.hadley.nz/data-transform.html#summary
+5,Workflow: code style,1,https://r4ds.hadley.nz/workflow-style.html
+5.1,Names,2,https://r4ds.hadley.nz/workflow-style.html#names
+5.2,Spaces,2,https://r4ds.hadley.nz/workflow-style.html#spaces
+5.3,Pipes,2,https://r4ds.hadley.nz/workflow-style.html#sec-pipes
+5.4,ggplot2,2,https://r4ds.hadley.nz/workflow-style.html#ggplot2
+5.5,Sectioning comments,2,https://r4ds.hadley.nz/workflow-style.html#sectioning-comments
+5.6,Exercises,2,https://r4ds.hadley.nz/workflow-style.html#exercises
+5.7,Summary,2,https://r4ds.hadley.nz/workflow-style.html#summary
+6,Data tidying,1,https://r4ds.hadley.nz/data-tidy.html
+6.1,Introduction,2,https://r4ds.hadley.nz/data-tidy.html#introduction
+6.1.1,Prerequisites,3,https://r4ds.hadley.nz/data-tidy.html#prerequisites
+6.2,Tidy data,2,https://r4ds.hadley.nz/data-tidy.html#sec-tidy-data
+6.2.1,Exercises,3,https://r4ds.hadley.nz/data-tidy.html#exercises
+6.3,Lengthening data,2,https://r4ds.hadley.nz/data-tidy.html#sec-pivoting
+6.3.1,Data in column names,3,https://r4ds.hadley.nz/data-tidy.html#sec-billboard
+6.3.2,How does pivoting work?,3,https://r4ds.hadley.nz/data-tidy.html#how-does-pivoting-work
+6.3.3,Many variables in column names,3,https://r4ds.hadley.nz/data-tidy.html#many-variables-in-column-names
+6.3.4,Data and variable names in the column headers,3,https://r4ds.hadley.nz/data-tidy.html#data-and-variable-names-in-the-column-headers
+6.4,Widening data,2,https://r4ds.hadley.nz/data-tidy.html#widening-data
+6.4.1,How does pivot_wider() work?,3,https://r4ds.hadley.nz/data-tidy.html#how-does-pivot_wider-work
+6.5,Summary,2,https://r4ds.hadley.nz/data-tidy.html#summary
+7,Workflow: scripts and projects,1,https://r4ds.hadley.nz/workflow-scripts.html
+7.1,Scripts,2,https://r4ds.hadley.nz/workflow-scripts.html#scripts
+7.1.1,Running code,3,https://r4ds.hadley.nz/workflow-scripts.html#running-code
+7.1.2,RStudio diagnostics,3,https://r4ds.hadley.nz/workflow-scripts.html#rstudio-diagnostics
+7.1.3,Saving and naming,3,https://r4ds.hadley.nz/workflow-scripts.html#saving-and-naming
+7.2,Projects,2,https://r4ds.hadley.nz/workflow-scripts.html#projects
+7.2.1,What is the source of truth?,3,https://r4ds.hadley.nz/workflow-scripts.html#what-is-the-source-of-truth
+7.2.2,Where does your analysis live?,3,https://r4ds.hadley.nz/workflow-scripts.html#where-does-your-analysis-live
+7.2.3,RStudio projects,3,https://r4ds.hadley.nz/workflow-scripts.html#rstudio-projects
+7.2.4,Relative and absolute paths,3,https://r4ds.hadley.nz/workflow-scripts.html#relative-and-absolute-paths
+7.3,Exercises,2,https://r4ds.hadley.nz/workflow-scripts.html#exercises
+7.4,Summary,2,https://r4ds.hadley.nz/workflow-scripts.html#summary
+8,Data import,1,https://r4ds.hadley.nz/data-import.html
+8.1,Introduction,2,https://r4ds.hadley.nz/data-import.html#introduction
+8.1.1,Prerequisites,3,https://r4ds.hadley.nz/data-import.html#prerequisites
+8.2,Reading data from a file,2,https://r4ds.hadley.nz/data-import.html#reading-data-from-a-file
+8.2.1,Practical advice,3,https://r4ds.hadley.nz/data-import.html#practical-advice
+8.2.2,Other arguments,3,https://r4ds.hadley.nz/data-import.html#other-arguments
+8.2.3,Other file types,3,https://r4ds.hadley.nz/data-import.html#other-file-types
+8.2.4,Exercises,3,https://r4ds.hadley.nz/data-import.html#exercises
+8.3,Controlling column types,2,https://r4ds.hadley.nz/data-import.html#sec-col-types
+8.3.1,Guessing types,3,https://r4ds.hadley.nz/data-import.html#guessing-types
+8.3.2,"Missing values, column types, and problems",3,https://r4ds.hadley.nz/data-import.html#missing-values-column-types-and-problems
+8.3.3,Column types,3,https://r4ds.hadley.nz/data-import.html#column-types
+8.4,Reading data from multiple files,2,https://r4ds.hadley.nz/data-import.html#sec-readr-directory
+8.5,Writing to a file,2,https://r4ds.hadley.nz/data-import.html#sec-writing-to-a-file
+8.6,Data entry,2,https://r4ds.hadley.nz/data-import.html#data-entry
+8.7,Summary,2,https://r4ds.hadley.nz/data-import.html#summary
+9,Workflow: getting help,1,https://r4ds.hadley.nz/workflow-help.html
+9.1,Google is your friend,2,https://r4ds.hadley.nz/workflow-help.html#google-is-your-friend
+9.2,Making a reprex,2,https://r4ds.hadley.nz/workflow-help.html#making-a-reprex
+9.3,Investing in yourself,2,https://r4ds.hadley.nz/workflow-help.html#investing-in-yourself
+9.4,Summary,2,https://r4ds.hadley.nz/workflow-help.html#summary
+10,Layers,1,https://r4ds.hadley.nz/layers.html
+10.1,Introduction,2,https://r4ds.hadley.nz/layers.html#introduction
+10.1.1,Prerequisites,3,https://r4ds.hadley.nz/layers.html#prerequisites
+10.2,Aesthetic mappings,2,https://r4ds.hadley.nz/layers.html#aesthetic-mappings
+10.2.1,Exercises,3,https://r4ds.hadley.nz/layers.html#exercises
+10.3,Geometric objects,2,https://r4ds.hadley.nz/layers.html#sec-geometric-objects
+10.3.1,Exercises,3,https://r4ds.hadley.nz/layers.html#exercises-1
+10.4,Facets,2,https://r4ds.hadley.nz/layers.html#facets
+10.4.1,Exercises,3,https://r4ds.hadley.nz/layers.html#exercises-2
+10.5,Statistical transformations,2,https://r4ds.hadley.nz/layers.html#statistical-transformations
+10.5.1,Exercises,3,https://r4ds.hadley.nz/layers.html#exercises-3
+10.6,Position adjustments,2,https://r4ds.hadley.nz/layers.html#position-adjustments
+10.6.1,Exercises,3,https://r4ds.hadley.nz/layers.html#exercises-4
+10.7,Coordinate systems,2,https://r4ds.hadley.nz/layers.html#coordinate-systems
+10.7.1,Exercises,3,https://r4ds.hadley.nz/layers.html#exercises-5
+10.8,The layered grammar of graphics,2,https://r4ds.hadley.nz/layers.html#the-layered-grammar-of-graphics
+10.9,Summary,2,https://r4ds.hadley.nz/layers.html#summary
+11,Exploratory data analysis,1,https://r4ds.hadley.nz/EDA.html
+11.1,Introduction,2,https://r4ds.hadley.nz/EDA.html#introduction
+11.1.1,Prerequisites,3,https://r4ds.hadley.nz/EDA.html#prerequisites
+11.2,Questions,2,https://r4ds.hadley.nz/EDA.html#questions
+11.3,Variation,2,https://r4ds.hadley.nz/EDA.html#variation
+11.3.1,Typical values,3,https://r4ds.hadley.nz/EDA.html#typical-values
+11.3.2,Unusual values,3,https://r4ds.hadley.nz/EDA.html#unusual-values
+11.3.3,Exercises,3,https://r4ds.hadley.nz/EDA.html#exercises
+11.4,Unusual values,2,https://r4ds.hadley.nz/EDA.html#sec-unusual-values-eda
+11.4.1,Exercises,3,https://r4ds.hadley.nz/EDA.html#exercises-1
+11.5,Covariation,2,https://r4ds.hadley.nz/EDA.html#covariation
+11.5.1,A categorical and a numerical variable,3,https://r4ds.hadley.nz/EDA.html#sec-cat-num
+11.5.2,Two categorical variables,3,https://r4ds.hadley.nz/EDA.html#two-categorical-variables
+11.5.3,Two numerical variables,3,https://r4ds.hadley.nz/EDA.html#two-numerical-variables
+11.6,Patterns and models,2,https://r4ds.hadley.nz/EDA.html#patterns-and-models
+11.7,Summary,2,https://r4ds.hadley.nz/EDA.html#summary
+12,Communication,1,https://r4ds.hadley.nz/communication.html
+12.1,Introduction,2,https://r4ds.hadley.nz/communication.html#introduction
+12.1.1,Prerequisites,3,https://r4ds.hadley.nz/communication.html#prerequisites
+12.2,Labels,2,https://r4ds.hadley.nz/communication.html#labels
+12.2.1,Exercises,3,https://r4ds.hadley.nz/communication.html#exercises
+12.3,Annotations,2,https://r4ds.hadley.nz/communication.html#annotations
+12.3.1,Exercises,3,https://r4ds.hadley.nz/communication.html#exercises-1
+12.4,Scales,2,https://r4ds.hadley.nz/communication.html#scales
+12.4.1,Default scales,3,https://r4ds.hadley.nz/communication.html#default-scales
+12.4.2,Axis ticks and legend keys,3,https://r4ds.hadley.nz/communication.html#axis-ticks-and-legend-keys
+12.4.3,Legend layout,3,https://r4ds.hadley.nz/communication.html#legend-layout
+12.4.4,Replacing a scale,3,https://r4ds.hadley.nz/communication.html#replacing-a-scale
+12.4.5,Zooming,3,https://r4ds.hadley.nz/communication.html#zooming
+12.4.6,Exercises,3,https://r4ds.hadley.nz/communication.html#exercises-2
+12.5,Themes,2,https://r4ds.hadley.nz/communication.html#sec-themes
+12.5.1,Exercises,3,https://r4ds.hadley.nz/communication.html#exercises-3
+12.6,Layout,2,https://r4ds.hadley.nz/communication.html#layout
+12.6.1,Exercises,3,https://r4ds.hadley.nz/communication.html#exercises-4
+12.7,Summary,2,https://r4ds.hadley.nz/communication.html#summary
+13,Logical vectors,1,https://r4ds.hadley.nz/logicals.html
+13.1,Introduction,2,https://r4ds.hadley.nz/logicals.html#introduction
+13.1.1,Prerequisites,3,https://r4ds.hadley.nz/logicals.html#prerequisites
+13.2,Comparisons,2,https://r4ds.hadley.nz/logicals.html#comparisons
+13.2.1,Floating point comparison,3,https://r4ds.hadley.nz/logicals.html#sec-fp-comparison
+13.2.2,Missing values,3,https://r4ds.hadley.nz/logicals.html#sec-na-comparison
+13.2.3,is.na(),3,https://r4ds.hadley.nz/logicals.html#is.na
+13.2.4,Exercises,3,https://r4ds.hadley.nz/logicals.html#exercises
+13.3,Boolean algebra,2,https://r4ds.hadley.nz/logicals.html#boolean-algebra
+13.3.1,Missing values,3,https://r4ds.hadley.nz/logicals.html#sec-na-boolean
+13.3.2,Order of operations,3,https://r4ds.hadley.nz/logicals.html#order-of-operations
+13.3.3,%in%,3,https://r4ds.hadley.nz/logicals.html#in
+13.3.4,Exercises,3,https://r4ds.hadley.nz/logicals.html#exercises-1
+13.4,Summaries,2,https://r4ds.hadley.nz/logicals.html#sec-logical-summaries
+13.4.1,Logical summaries,3,https://r4ds.hadley.nz/logicals.html#logical-summaries
+13.4.2,Numeric summaries of logical vectors,3,https://r4ds.hadley.nz/logicals.html#sec-numeric-summaries-of-logicals
+13.4.3,Logical subsetting,3,https://r4ds.hadley.nz/logicals.html#logical-subsetting
+13.4.4,Exercises,3,https://r4ds.hadley.nz/logicals.html#exercises-2
+13.5,Conditional transformations,2,https://r4ds.hadley.nz/logicals.html#conditional-transformations
+13.5.1,if_else(),3,https://r4ds.hadley.nz/logicals.html#if_else
+13.5.2,case_when(),3,https://r4ds.hadley.nz/logicals.html#case_when
+13.5.3,Compatible types,3,https://r4ds.hadley.nz/logicals.html#compatible-types
+13.5.4,Exercises,3,https://r4ds.hadley.nz/logicals.html#exercises-3
+13.6,Summary,2,https://r4ds.hadley.nz/logicals.html#summary
+14,Numbers,1,https://r4ds.hadley.nz/numbers.html
+14.1,Introduction,2,https://r4ds.hadley.nz/numbers.html#introduction
+14.1.1,Prerequisites,3,https://r4ds.hadley.nz/numbers.html#prerequisites
+14.2,Making numbers,2,https://r4ds.hadley.nz/numbers.html#making-numbers
+14.3,Counts,2,https://r4ds.hadley.nz/numbers.html#sec-counts
+14.3.1,Exercises,3,https://r4ds.hadley.nz/numbers.html#exercises
+14.4,Numeric transformations,2,https://r4ds.hadley.nz/numbers.html#numeric-transformations
+14.4.1,Arithmetic and recycling rules,3,https://r4ds.hadley.nz/numbers.html#sec-recycling
+14.4.2,Minimum and maximum,3,https://r4ds.hadley.nz/numbers.html#minimum-and-maximum
+14.4.3,Modular arithmetic,3,https://r4ds.hadley.nz/numbers.html#modular-arithmetic
+14.4.4,Logarithms,3,https://r4ds.hadley.nz/numbers.html#logarithms
+14.4.5,Rounding,3,https://r4ds.hadley.nz/numbers.html#sec-rounding
+14.4.6,Cutting numbers into ranges,3,https://r4ds.hadley.nz/numbers.html#cutting-numbers-into-ranges
+14.4.7,Cumulative and rolling aggregates,3,https://r4ds.hadley.nz/numbers.html#sec-cumulative-and-rolling-aggregates
+14.4.8,Exercises,3,https://r4ds.hadley.nz/numbers.html#exercises-1
+14.5,General transformations,2,https://r4ds.hadley.nz/numbers.html#general-transformations
+14.5.1,Ranks,3,https://r4ds.hadley.nz/numbers.html#ranks
+14.5.2,Offsets,3,https://r4ds.hadley.nz/numbers.html#offsets
+14.5.3,Consecutive identifiers,3,https://r4ds.hadley.nz/numbers.html#consecutive-identifiers
+14.5.4,Exercises,3,https://r4ds.hadley.nz/numbers.html#exercises-2
+14.6,Numeric summaries,2,https://r4ds.hadley.nz/numbers.html#numeric-summaries
+14.6.1,Center,3,https://r4ds.hadley.nz/numbers.html#center
+14.6.2,"Minimum, maximum, and quantiles",3,https://r4ds.hadley.nz/numbers.html#sec-min-max-summary
+14.6.3,Spread,3,https://r4ds.hadley.nz/numbers.html#spread
+14.6.4,Distributions,3,https://r4ds.hadley.nz/numbers.html#distributions
+14.6.5,Positions,3,https://r4ds.hadley.nz/numbers.html#positions
+14.6.6,With mutate(),3,https://r4ds.hadley.nz/numbers.html#with-mutate
+14.6.7,Exercises,3,https://r4ds.hadley.nz/numbers.html#exercises-3
+14.7,Summary,2,https://r4ds.hadley.nz/numbers.html#summary
+15,Strings,1,https://r4ds.hadley.nz/strings.html
+15.1,Introduction,2,https://r4ds.hadley.nz/strings.html#introduction
+15.1.1,Prerequisites,3,https://r4ds.hadley.nz/strings.html#prerequisites
+15.2,Creating a string,2,https://r4ds.hadley.nz/strings.html#creating-a-string
+15.2.1,Escapes,3,https://r4ds.hadley.nz/strings.html#escapes
+15.2.2,Raw strings,3,https://r4ds.hadley.nz/strings.html#sec-raw-strings
+15.2.3,Other special characters,3,https://r4ds.hadley.nz/strings.html#other-special-characters
+15.2.4,Exercises,3,https://r4ds.hadley.nz/strings.html#exercises
+15.3,Creating many strings from data,2,https://r4ds.hadley.nz/strings.html#creating-many-strings-from-data
+15.3.1,str_c(),3,https://r4ds.hadley.nz/strings.html#str_c
+15.3.2,str_glue(),3,https://r4ds.hadley.nz/strings.html#sec-glue
+15.3.3,str_flatten(),3,https://r4ds.hadley.nz/strings.html#str_flatten
+15.3.4,Exercises,3,https://r4ds.hadley.nz/strings.html#exercises-1
+15.4,Extracting data from strings,2,https://r4ds.hadley.nz/strings.html#extracting-data-from-strings
+15.4.1,Separating into rows,3,https://r4ds.hadley.nz/strings.html#separating-into-rows
+15.4.2,Separating into columns,3,https://r4ds.hadley.nz/strings.html#sec-string-columns
+15.4.3,Diagnosing widening problems,3,https://r4ds.hadley.nz/strings.html#diagnosing-widening-problems
+15.5,Letters,2,https://r4ds.hadley.nz/strings.html#letters
+15.5.1,Length,3,https://r4ds.hadley.nz/strings.html#length
+15.5.2,Subsetting,3,https://r4ds.hadley.nz/strings.html#subsetting
+15.5.3,Exercises,3,https://r4ds.hadley.nz/strings.html#exercises-2
+15.6,Non-English text,2,https://r4ds.hadley.nz/strings.html#sec-other-languages
+15.6.1,Encoding,3,https://r4ds.hadley.nz/strings.html#encoding
+15.6.2,Letter variations,3,https://r4ds.hadley.nz/strings.html#letter-variations
+15.6.3,Locale-dependent functions,3,https://r4ds.hadley.nz/strings.html#locale-dependent-functions
+15.7,Summary,2,https://r4ds.hadley.nz/strings.html#summary
+16,Regular expressions,1,https://r4ds.hadley.nz/regexps.html
+16.1,Introduction,2,https://r4ds.hadley.nz/regexps.html#introduction
+16.1.1,Prerequisites,3,https://r4ds.hadley.nz/regexps.html#prerequisites
+16.2,Pattern basics,2,https://r4ds.hadley.nz/regexps.html#sec-reg-basics
+16.3,Key functions,2,https://r4ds.hadley.nz/regexps.html#sec-stringr-regex-funs
+16.3.1,Detect matches,3,https://r4ds.hadley.nz/regexps.html#detect-matches
+16.3.2,Count matches,3,https://r4ds.hadley.nz/regexps.html#count-matches
+16.3.3,Replace values,3,https://r4ds.hadley.nz/regexps.html#replace-values
+16.3.4,Extract variables,3,https://r4ds.hadley.nz/regexps.html#sec-extract-variables
+16.3.5,Exercises,3,https://r4ds.hadley.nz/regexps.html#exercises
+16.4,Pattern details,2,https://r4ds.hadley.nz/regexps.html#pattern-details
+16.4.1,Escaping,3,https://r4ds.hadley.nz/regexps.html#sec-regexp-escaping
+16.4.2,Anchors,3,https://r4ds.hadley.nz/regexps.html#anchors
+16.4.3,Character classes,3,https://r4ds.hadley.nz/regexps.html#character-classes
+16.4.4,Quantifiers,3,https://r4ds.hadley.nz/regexps.html#sec-quantifiers
+16.4.5,Operator precedence and parentheses,3,https://r4ds.hadley.nz/regexps.html#operator-precedence-and-parentheses
+16.4.6,Grouping and capturing,3,https://r4ds.hadley.nz/regexps.html#grouping-and-capturing
+16.4.7,Exercises,3,https://r4ds.hadley.nz/regexps.html#exercises-1
+16.5,Pattern control,2,https://r4ds.hadley.nz/regexps.html#pattern-control
+16.5.1,Regex flags,3,https://r4ds.hadley.nz/regexps.html#sec-flags
+16.5.2,Fixed matches,3,https://r4ds.hadley.nz/regexps.html#fixed-matches
+16.6,Practice,2,https://r4ds.hadley.nz/regexps.html#practice
+16.6.1,Check your work,3,https://r4ds.hadley.nz/regexps.html#check-your-work
+16.6.2,Boolean operations,3,https://r4ds.hadley.nz/regexps.html#sec-boolean-operations
+16.6.3,Creating a pattern with code,3,https://r4ds.hadley.nz/regexps.html#creating-a-pattern-with-code
+16.6.4,Exercises,3,https://r4ds.hadley.nz/regexps.html#exercises-2
+16.7,Regular expressions in other places,2,https://r4ds.hadley.nz/regexps.html#regular-expressions-in-other-places
+16.7.1,tidyverse,3,https://r4ds.hadley.nz/regexps.html#tidyverse
+16.7.2,Base R,3,https://r4ds.hadley.nz/regexps.html#base-r
+16.8,Summary,2,https://r4ds.hadley.nz/regexps.html#summary
+17,Factors,1,https://r4ds.hadley.nz/factors.html
+17.1,Introduction,2,https://r4ds.hadley.nz/factors.html#introduction
+17.1.1,Prerequisites,3,https://r4ds.hadley.nz/factors.html#prerequisites
+17.2,Factor basics,2,https://r4ds.hadley.nz/factors.html#factor-basics
+17.3,General Social Survey,2,https://r4ds.hadley.nz/factors.html#general-social-survey
+17.3.1,Exercise,3,https://r4ds.hadley.nz/factors.html#exercise
+17.4,Modifying factor order,2,https://r4ds.hadley.nz/factors.html#sec-modifying-factor-order
+17.4.1,Exercises,3,https://r4ds.hadley.nz/factors.html#exercises
+17.5,Modifying factor levels,2,https://r4ds.hadley.nz/factors.html#modifying-factor-levels
+17.5.1,Exercises,3,https://r4ds.hadley.nz/factors.html#exercises-1
+17.6,Ordered factors,2,https://r4ds.hadley.nz/factors.html#sec-ordered-factors
+17.7,Summary,2,https://r4ds.hadley.nz/factors.html#summary
+18,Dates and times,1,https://r4ds.hadley.nz/datetimes.html
+18.1,Introduction,2,https://r4ds.hadley.nz/datetimes.html#introduction
+18.1.1,Prerequisites,3,https://r4ds.hadley.nz/datetimes.html#prerequisites
+18.2,Creating date/times,2,https://r4ds.hadley.nz/datetimes.html#sec-creating-datetimes
+18.2.1,During import,3,https://r4ds.hadley.nz/datetimes.html#during-import
+18.2.2,From strings,3,https://r4ds.hadley.nz/datetimes.html#from-strings
+18.2.3,From individual components,3,https://r4ds.hadley.nz/datetimes.html#from-individual-components
+18.2.4,From other types,3,https://r4ds.hadley.nz/datetimes.html#from-other-types
+18.2.5,Exercises,3,https://r4ds.hadley.nz/datetimes.html#exercises
+18.3,Date-time components,2,https://r4ds.hadley.nz/datetimes.html#date-time-components
+18.3.1,Getting components,3,https://r4ds.hadley.nz/datetimes.html#getting-components
+18.3.2,Rounding,3,https://r4ds.hadley.nz/datetimes.html#rounding
+18.3.3,Modifying components,3,https://r4ds.hadley.nz/datetimes.html#modifying-components
+18.3.4,Exercises,3,https://r4ds.hadley.nz/datetimes.html#exercises-1
+18.4,Time spans,2,https://r4ds.hadley.nz/datetimes.html#time-spans
+18.4.1,Durations,3,https://r4ds.hadley.nz/datetimes.html#durations
+18.4.2,Periods,3,https://r4ds.hadley.nz/datetimes.html#periods
+18.4.3,Intervals,3,https://r4ds.hadley.nz/datetimes.html#sec-intervals
+18.4.4,Exercises,3,https://r4ds.hadley.nz/datetimes.html#exercises-2
+18.5,Time zones,2,https://r4ds.hadley.nz/datetimes.html#time-zones
+18.6,Summary,2,https://r4ds.hadley.nz/datetimes.html#summary
+19,Missing values,1,https://r4ds.hadley.nz/missing-values.html
+19.1,Introduction,2,https://r4ds.hadley.nz/missing-values.html#introduction
+19.1.1,Prerequisites,3,https://r4ds.hadley.nz/missing-values.html#prerequisites
+19.2,Explicit missing values,2,https://r4ds.hadley.nz/missing-values.html#explicit-missing-values
+19.2.1,Last observation carried forward,3,https://r4ds.hadley.nz/missing-values.html#last-observation-carried-forward
+19.2.2,Fixed values,3,https://r4ds.hadley.nz/missing-values.html#fixed-values
+19.2.3,NaN,3,https://r4ds.hadley.nz/missing-values.html#nan
+19.3,Implicit missing values,2,https://r4ds.hadley.nz/missing-values.html#sec-missing-implicit
+19.3.1,Pivoting,3,https://r4ds.hadley.nz/missing-values.html#pivoting
+19.3.2,Complete,3,https://r4ds.hadley.nz/missing-values.html#complete
+19.3.3,Joins,3,https://r4ds.hadley.nz/missing-values.html#joins
+19.3.4,Exercises,3,https://r4ds.hadley.nz/missing-values.html#exercises
+19.4,Factors and empty groups,2,https://r4ds.hadley.nz/missing-values.html#factors-and-empty-groups
+19.5,Summary,2,https://r4ds.hadley.nz/missing-values.html#summary
+20,Joins,1,https://r4ds.hadley.nz/joins.html
+20.1,Introduction,2,https://r4ds.hadley.nz/joins.html#introduction
+20.1.1,Prerequisites,3,https://r4ds.hadley.nz/joins.html#prerequisites
+20.2,Keys,2,https://r4ds.hadley.nz/joins.html#keys
+20.2.1,Primary and foreign keys,3,https://r4ds.hadley.nz/joins.html#primary-and-foreign-keys
+20.2.2,Checking primary keys,3,https://r4ds.hadley.nz/joins.html#checking-primary-keys
+20.2.3,Surrogate keys,3,https://r4ds.hadley.nz/joins.html#surrogate-keys
+20.2.4,Exercises,3,https://r4ds.hadley.nz/joins.html#exercises
+20.3,Basic joins,2,https://r4ds.hadley.nz/joins.html#sec-mutating-joins
+20.3.1,Mutating joins,3,https://r4ds.hadley.nz/joins.html#mutating-joins
+20.3.2,Specifying join keys,3,https://r4ds.hadley.nz/joins.html#specifying-join-keys
+20.3.3,Filtering joins,3,https://r4ds.hadley.nz/joins.html#filtering-joins
+20.3.4,Exercises,3,https://r4ds.hadley.nz/joins.html#exercises-1
+20.4,How do joins work?,2,https://r4ds.hadley.nz/joins.html#how-do-joins-work
+20.4.1,Row matching,3,https://r4ds.hadley.nz/joins.html#row-matching
+20.4.2,Filtering joins,3,https://r4ds.hadley.nz/joins.html#filtering-joins-1
+20.5,Non-equi joins,2,https://r4ds.hadley.nz/joins.html#sec-non-equi-joins
+20.5.1,Cross joins,3,https://r4ds.hadley.nz/joins.html#cross-joins
+20.5.2,Inequality joins,3,https://r4ds.hadley.nz/joins.html#inequality-joins
+20.5.3,Rolling joins,3,https://r4ds.hadley.nz/joins.html#rolling-joins
+20.5.4,Overlap joins,3,https://r4ds.hadley.nz/joins.html#overlap-joins
+20.5.5,Exercises,3,https://r4ds.hadley.nz/joins.html#exercises-2
+20.6,Summary,2,https://r4ds.hadley.nz/joins.html#summary
+21,Spreadsheets,1,https://r4ds.hadley.nz/spreadsheets.html
+21.1,Introduction,2,https://r4ds.hadley.nz/spreadsheets.html#introduction
+21.2,Excel,2,https://r4ds.hadley.nz/spreadsheets.html#excel
+21.2.1,Prerequisites,3,https://r4ds.hadley.nz/spreadsheets.html#prerequisites
+21.2.2,Getting started,3,https://r4ds.hadley.nz/spreadsheets.html#getting-started
+21.2.3,Reading Excel spreadsheets,3,https://r4ds.hadley.nz/spreadsheets.html#sec-reading-spreadsheets-excel
+21.2.4,Reading worksheets,3,https://r4ds.hadley.nz/spreadsheets.html#reading-worksheets
+21.2.5,Reading part of a sheet,3,https://r4ds.hadley.nz/spreadsheets.html#reading-part-of-a-sheet
+21.2.6,Data types,3,https://r4ds.hadley.nz/spreadsheets.html#data-types
+21.2.7,Writing to Excel,3,https://r4ds.hadley.nz/spreadsheets.html#sec-writing-to-excel
+21.2.8,Formatted output,3,https://r4ds.hadley.nz/spreadsheets.html#formatted-output
+21.2.9,Exercises,3,https://r4ds.hadley.nz/spreadsheets.html#exercises
+21.3,Google Sheets,2,https://r4ds.hadley.nz/spreadsheets.html#google-sheets
+21.3.1,Prerequisites,3,https://r4ds.hadley.nz/spreadsheets.html#prerequisites-1
+21.3.2,Getting started,3,https://r4ds.hadley.nz/spreadsheets.html#getting-started-1
+21.3.3,Reading Google Sheets,3,https://r4ds.hadley.nz/spreadsheets.html#reading-google-sheets
+21.3.4,Writing to Google Sheets,3,https://r4ds.hadley.nz/spreadsheets.html#writing-to-google-sheets
+21.3.5,Authentication,3,https://r4ds.hadley.nz/spreadsheets.html#authentication
+21.3.6,Exercises,3,https://r4ds.hadley.nz/spreadsheets.html#exercises-1
+21.4,Summary,2,https://r4ds.hadley.nz/spreadsheets.html#summary
+22,Databases,1,https://r4ds.hadley.nz/databases.html
+22.1,Introduction,2,https://r4ds.hadley.nz/databases.html#introduction
+22.1.1,Prerequisites,3,https://r4ds.hadley.nz/databases.html#prerequisites
+22.2,Database basics,2,https://r4ds.hadley.nz/databases.html#database-basics
+22.3,Connecting to a database,2,https://r4ds.hadley.nz/databases.html#connecting-to-a-database
+22.3.1,In this book,3,https://r4ds.hadley.nz/databases.html#in-this-book
+22.3.2,Load some data,3,https://r4ds.hadley.nz/databases.html#sec-load-data
+22.3.3,DBI basics,3,https://r4ds.hadley.nz/databases.html#dbi-basics
+22.4,dbplyr basics,2,https://r4ds.hadley.nz/databases.html#dbplyr-basics
+22.5,SQL,2,https://r4ds.hadley.nz/databases.html#sql
+22.5.1,SQL basics,3,https://r4ds.hadley.nz/databases.html#sql-basics
+22.5.2,SELECT,3,https://r4ds.hadley.nz/databases.html#select
+22.5.3,FROM,3,https://r4ds.hadley.nz/databases.html#from
+22.5.4,GROUP BY,3,https://r4ds.hadley.nz/databases.html#group-by
+22.5.5,WHERE,3,https://r4ds.hadley.nz/databases.html#where
+22.5.6,ORDER BY,3,https://r4ds.hadley.nz/databases.html#order-by
+22.5.7,Subqueries,3,https://r4ds.hadley.nz/databases.html#subqueries
+22.5.8,Joins,3,https://r4ds.hadley.nz/databases.html#joins
+22.5.9,Other verbs,3,https://r4ds.hadley.nz/databases.html#other-verbs
+22.5.10,Exercises,3,https://r4ds.hadley.nz/databases.html#exercises
+22.6,Function translations,2,https://r4ds.hadley.nz/databases.html#sec-sql-expressions
+22.7,Summary,2,https://r4ds.hadley.nz/databases.html#summary
+23,Arrow,1,https://r4ds.hadley.nz/arrow.html
+23.1,Introduction,2,https://r4ds.hadley.nz/arrow.html#introduction
+23.1.1,Prerequisites,3,https://r4ds.hadley.nz/arrow.html#prerequisites
+23.2,Getting the data,2,https://r4ds.hadley.nz/arrow.html#getting-the-data
+23.3,Opening a dataset,2,https://r4ds.hadley.nz/arrow.html#opening-a-dataset
+23.4,The parquet format,2,https://r4ds.hadley.nz/arrow.html#sec-parquet
+23.4.1,Advantages of parquet,3,https://r4ds.hadley.nz/arrow.html#advantages-of-parquet
+23.4.2,Partitioning,3,https://r4ds.hadley.nz/arrow.html#partitioning
+23.4.3,Rewriting the Seattle library data,3,https://r4ds.hadley.nz/arrow.html#rewriting-the-seattle-library-data
+23.5,Using dplyr with arrow,2,https://r4ds.hadley.nz/arrow.html#using-dplyr-with-arrow
+23.5.1,Performance,3,https://r4ds.hadley.nz/arrow.html#sec-parquet-fast
+23.5.2,Using dbplyr with arrow,3,https://r4ds.hadley.nz/arrow.html#using-dbplyr-with-arrow
+23.6,Summary,2,https://r4ds.hadley.nz/arrow.html#summary
+24,Hierarchical data,1,https://r4ds.hadley.nz/rectangling.html
+24.1,Introduction,2,https://r4ds.hadley.nz/rectangling.html#introduction
+24.1.1,Prerequisites,3,https://r4ds.hadley.nz/rectangling.html#prerequisites
+24.2,Lists,2,https://r4ds.hadley.nz/rectangling.html#lists
+24.2.1,Hierarchy,3,https://r4ds.hadley.nz/rectangling.html#hierarchy
+24.2.2,List-columns,3,https://r4ds.hadley.nz/rectangling.html#list-columns
+24.3,Unnesting,2,https://r4ds.hadley.nz/rectangling.html#unnesting
+24.3.1,unnest_wider(),3,https://r4ds.hadley.nz/rectangling.html#unnest_wider
+24.3.2,unnest_longer(),3,https://r4ds.hadley.nz/rectangling.html#unnest_longer
+24.3.3,Inconsistent types,3,https://r4ds.hadley.nz/rectangling.html#inconsistent-types
+24.3.4,Other functions,3,https://r4ds.hadley.nz/rectangling.html#other-functions
+24.3.5,Exercises,3,https://r4ds.hadley.nz/rectangling.html#exercises
+24.4,Case studies,2,https://r4ds.hadley.nz/rectangling.html#case-studies
+24.4.1,Very wide data,3,https://r4ds.hadley.nz/rectangling.html#very-wide-data
+24.4.2,Relational data,3,https://r4ds.hadley.nz/rectangling.html#relational-data
+24.4.3,Deeply nested,3,https://r4ds.hadley.nz/rectangling.html#deeply-nested
+24.4.4,Exercises,3,https://r4ds.hadley.nz/rectangling.html#exercises-1
+24.5,JSON,2,https://r4ds.hadley.nz/rectangling.html#json
+24.5.1,Data types,3,https://r4ds.hadley.nz/rectangling.html#data-types
+24.5.2,jsonlite,3,https://r4ds.hadley.nz/rectangling.html#jsonlite
+24.5.3,Starting the rectangling process,3,https://r4ds.hadley.nz/rectangling.html#starting-the-rectangling-process
+24.5.4,Exercises,3,https://r4ds.hadley.nz/rectangling.html#exercises-2
+24.6,Summary,2,https://r4ds.hadley.nz/rectangling.html#summary
+25,Web scraping,1,https://r4ds.hadley.nz/webscraping.html
+25.1,Introduction,2,https://r4ds.hadley.nz/webscraping.html#introduction
+25.1.1,Prerequisites,3,https://r4ds.hadley.nz/webscraping.html#prerequisites
+25.2,Scraping ethics and legalities,2,https://r4ds.hadley.nz/webscraping.html#scraping-ethics-and-legalities
+25.2.1,Terms of service,3,https://r4ds.hadley.nz/webscraping.html#terms-of-service
+25.2.2,Personally identifiable information,3,https://r4ds.hadley.nz/webscraping.html#personally-identifiable-information
+25.2.3,Copyright,3,https://r4ds.hadley.nz/webscraping.html#copyright
+25.3,HTML basics,2,https://r4ds.hadley.nz/webscraping.html#html-basics
+25.3.1,Elements,3,https://r4ds.hadley.nz/webscraping.html#elements
+25.3.2,Attributes,3,https://r4ds.hadley.nz/webscraping.html#attributes
+25.4,Extracting data,2,https://r4ds.hadley.nz/webscraping.html#extracting-data
+25.4.1,Find elements,3,https://r4ds.hadley.nz/webscraping.html#find-elements
+25.4.2,Nesting selections,3,https://r4ds.hadley.nz/webscraping.html#nesting-selections
+25.4.3,Text and attributes,3,https://r4ds.hadley.nz/webscraping.html#text-and-attributes
+25.4.4,Tables,3,https://r4ds.hadley.nz/webscraping.html#tables
+25.5,Finding the right selectors,2,https://r4ds.hadley.nz/webscraping.html#sec-css-selectors
+25.6,Putting it all together,2,https://r4ds.hadley.nz/webscraping.html#putting-it-all-together
+25.6.1,StarWars,3,https://r4ds.hadley.nz/webscraping.html#starwars
+25.6.2,IMDB top films,3,https://r4ds.hadley.nz/webscraping.html#imdb-top-films
+25.7,Dynamic sites,2,https://r4ds.hadley.nz/webscraping.html#dynamic-sites
+25.8,Summary,2,https://r4ds.hadley.nz/webscraping.html#summary
+26,Functions,1,https://r4ds.hadley.nz/functions.html
+26.1,Introduction,2,https://r4ds.hadley.nz/functions.html#introduction
+26.1.1,Prerequisites,3,https://r4ds.hadley.nz/functions.html#prerequisites
+26.2,Vector functions,2,https://r4ds.hadley.nz/functions.html#vector-functions
+26.2.1,Writing a function,3,https://r4ds.hadley.nz/functions.html#writing-a-function
+26.2.2,Improving our function,3,https://r4ds.hadley.nz/functions.html#improving-our-function
+26.2.3,Mutate functions,3,https://r4ds.hadley.nz/functions.html#mutate-functions
+26.2.4,Summary functions,3,https://r4ds.hadley.nz/functions.html#summary-functions
+26.2.5,Exercises,3,https://r4ds.hadley.nz/functions.html#exercises
+26.3,Data frame functions,2,https://r4ds.hadley.nz/functions.html#data-frame-functions
+26.3.1,Indirection and tidy evaluation,3,https://r4ds.hadley.nz/functions.html#indirection-and-tidy-evaluation
+26.3.2,When to embrace?,3,https://r4ds.hadley.nz/functions.html#sec-embracing
+26.3.3,Common use cases,3,https://r4ds.hadley.nz/functions.html#common-use-cases
+26.3.4,Data-masking vs. tidy-selection,3,https://r4ds.hadley.nz/functions.html#data-masking-vs.-tidy-selection
+26.3.5,Exercises,3,https://r4ds.hadley.nz/functions.html#exercises-1
+26.4,Plot functions,2,https://r4ds.hadley.nz/functions.html#plot-functions
+26.4.1,More variables,3,https://r4ds.hadley.nz/functions.html#more-variables
+26.4.2,Combining with other tidyverse,3,https://r4ds.hadley.nz/functions.html#combining-with-other-tidyverse
+26.4.3,Labeling,3,https://r4ds.hadley.nz/functions.html#labeling
+26.4.4,Exercises,3,https://r4ds.hadley.nz/functions.html#exercises-2
+26.5,Style,2,https://r4ds.hadley.nz/functions.html#style
+26.5.1,Exercises,3,https://r4ds.hadley.nz/functions.html#exercises-3
+26.6,Summary,2,https://r4ds.hadley.nz/functions.html#summary
+27,Iteration,1,https://r4ds.hadley.nz/iteration.html
+27.1,Introduction,2,https://r4ds.hadley.nz/iteration.html#introduction
+27.1.1,Prerequisites,3,https://r4ds.hadley.nz/iteration.html#prerequisites
+27.2,Modifying multiple columns,2,https://r4ds.hadley.nz/iteration.html#sec-across
+27.2.1,Selecting columns with .cols,3,https://r4ds.hadley.nz/iteration.html#selecting-columns-with-.cols
+27.2.2,Calling a single function,3,https://r4ds.hadley.nz/iteration.html#calling-a-single-function
+27.2.3,Calling multiple functions,3,https://r4ds.hadley.nz/iteration.html#calling-multiple-functions
+27.2.4,Column names,3,https://r4ds.hadley.nz/iteration.html#column-names
+27.2.5,Filtering,3,https://r4ds.hadley.nz/iteration.html#filtering
+27.2.6,across() in functions,3,https://r4ds.hadley.nz/iteration.html#across-in-functions
+27.2.7,Vs pivot_longer(),3,https://r4ds.hadley.nz/iteration.html#vs-pivot_longer
+27.2.8,Exercises,3,https://r4ds.hadley.nz/iteration.html#exercises
+27.3,Reading multiple files,2,https://r4ds.hadley.nz/iteration.html#reading-multiple-files
+27.3.1,Listing files in a directory,3,https://r4ds.hadley.nz/iteration.html#listing-files-in-a-directory
+27.3.2,Lists,3,https://r4ds.hadley.nz/iteration.html#lists
+27.3.3,purrr::map() and list_rbind(),3,https://r4ds.hadley.nz/iteration.html#purrrmap-and-list_rbind
+27.3.4,Data in the path,3,https://r4ds.hadley.nz/iteration.html#sec-data-in-the-path
+27.3.5,Save your work,3,https://r4ds.hadley.nz/iteration.html#save-your-work
+27.3.6,Many simple iterations,3,https://r4ds.hadley.nz/iteration.html#many-simple-iterations
+27.3.7,Heterogeneous data,3,https://r4ds.hadley.nz/iteration.html#heterogeneous-data
+27.3.8,Handling failures,3,https://r4ds.hadley.nz/iteration.html#handling-failures
+27.4,Saving multiple outputs,2,https://r4ds.hadley.nz/iteration.html#saving-multiple-outputs
+27.4.1,Writing to a database,3,https://r4ds.hadley.nz/iteration.html#sec-save-database
+27.4.2,Writing csv files,3,https://r4ds.hadley.nz/iteration.html#writing-csv-files
+27.4.3,Saving plots,3,https://r4ds.hadley.nz/iteration.html#saving-plots
+27.5,Summary,2,https://r4ds.hadley.nz/iteration.html#summary
+28,A field guide to base R,1,https://r4ds.hadley.nz/base-R.html
+28.1,Introduction,2,https://r4ds.hadley.nz/base-R.html#introduction
+28.1.1,Prerequisites,3,https://r4ds.hadley.nz/base-R.html#prerequisites
+28.2,Selecting multiple elements with [,2,https://r4ds.hadley.nz/base-R.html#sec-subset-many
+28.2.1,Subsetting vectors,3,https://r4ds.hadley.nz/base-R.html#subsetting-vectors
+28.2.2,Subsetting data frames,3,https://r4ds.hadley.nz/base-R.html#subsetting-data-frames
+28.2.3,dplyr equivalents,3,https://r4ds.hadley.nz/base-R.html#dplyr-equivalents
+28.2.4,Exercises,3,https://r4ds.hadley.nz/base-R.html#exercises
+28.3,Selecting a single element with $ and [[,2,https://r4ds.hadley.nz/base-R.html#sec-subset-one
+28.3.1,Data frames,3,https://r4ds.hadley.nz/base-R.html#data-frames
+28.3.2,Tibbles,3,https://r4ds.hadley.nz/base-R.html#tibbles
+28.3.3,Lists,3,https://r4ds.hadley.nz/base-R.html#lists
+28.3.4,Exercises,3,https://r4ds.hadley.nz/base-R.html#exercises-1
+28.4,Apply family,2,https://r4ds.hadley.nz/base-R.html#apply-family
+28.5,for loops,2,https://r4ds.hadley.nz/base-R.html#for-loops
+28.6,Plots,2,https://r4ds.hadley.nz/base-R.html#plots
+28.7,Summary,2,https://r4ds.hadley.nz/base-R.html#summary
+29,Quarto,1,https://r4ds.hadley.nz/quarto.html
+29.1,Introduction,2,https://r4ds.hadley.nz/quarto.html#introduction
+29.1.1,Prerequisites,3,https://r4ds.hadley.nz/quarto.html#prerequisites
+29.2,Quarto basics,2,https://r4ds.hadley.nz/quarto.html#quarto-basics
+29.2.1,Exercises,3,https://r4ds.hadley.nz/quarto.html#exercises
+29.3,Visual editor,2,https://r4ds.hadley.nz/quarto.html#visual-editor
+29.3.1,Exercises,3,https://r4ds.hadley.nz/quarto.html#exercises-1
+29.4,Source editor,2,https://r4ds.hadley.nz/quarto.html#sec-source-editor
+29.4.1,Exercises,3,https://r4ds.hadley.nz/quarto.html#exercises-2
+29.5,Code chunks,2,https://r4ds.hadley.nz/quarto.html#code-chunks
+29.5.1,Chunk label,3,https://r4ds.hadley.nz/quarto.html#chunk-label
+29.5.2,Chunk options,3,https://r4ds.hadley.nz/quarto.html#chunk-options
+29.5.3,Global options,3,https://r4ds.hadley.nz/quarto.html#global-options
+29.5.4,Inline code,3,https://r4ds.hadley.nz/quarto.html#inline-code
+29.5.5,Exercises,3,https://r4ds.hadley.nz/quarto.html#exercises-3
+29.6,Figures,2,https://r4ds.hadley.nz/quarto.html#sec-figures
+29.6.1,Figure sizing,3,https://r4ds.hadley.nz/quarto.html#figure-sizing
+29.6.2,Other important options,3,https://r4ds.hadley.nz/quarto.html#other-important-options
+29.6.3,Exercises,3,https://r4ds.hadley.nz/quarto.html#exercises-4
+29.7,Tables,2,https://r4ds.hadley.nz/quarto.html#tables
+29.7.1,Exercises,3,https://r4ds.hadley.nz/quarto.html#exercises-5
+29.8,Caching,2,https://r4ds.hadley.nz/quarto.html#sec-caching
+29.8.1,Exercises,3,https://r4ds.hadley.nz/quarto.html#exercises-6
+29.9,Troubleshooting,2,https://r4ds.hadley.nz/quarto.html#troubleshooting
+29.10,YAML header,2,https://r4ds.hadley.nz/quarto.html#yaml-header
+29.10.1,Self-contained,3,https://r4ds.hadley.nz/quarto.html#self-contained
+29.10.2,Parameters,3,https://r4ds.hadley.nz/quarto.html#parameters
+29.10.3,Bibliographies and Citations,3,https://r4ds.hadley.nz/quarto.html#bibliographies-and-citations
+29.11,Workflow,2,https://r4ds.hadley.nz/quarto.html#workflow
+29.12,Summary,2,https://r4ds.hadley.nz/quarto.html#summary
+30,Quarto formats,1,https://r4ds.hadley.nz/quarto-formats.html
+30.1,Introduction,2,https://r4ds.hadley.nz/quarto-formats.html#introduction
+30.2,Output options,2,https://r4ds.hadley.nz/quarto-formats.html#output-options
+30.3,Documents,2,https://r4ds.hadley.nz/quarto-formats.html#documents
+30.4,Presentations,2,https://r4ds.hadley.nz/quarto-formats.html#presentations
+30.5,Interactivity,2,https://r4ds.hadley.nz/quarto-formats.html#interactivity
+30.5.1,htmlwidgets,3,https://r4ds.hadley.nz/quarto-formats.html#htmlwidgets
+30.5.2,Shiny,3,https://r4ds.hadley.nz/quarto-formats.html#shiny
+30.6,Websites and books,2,https://r4ds.hadley.nz/quarto-formats.html#websites-and-books
+30.7,Other formats,2,https://r4ds.hadley.nz/quarto-formats.html#other-formats
+30.8,Summary,2,https://r4ds.hadley.nz/quarto-formats.html#summary
