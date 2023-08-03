@@ -14,12 +14,14 @@ desc: |
 duration: 15-45
 
 readings:
+- book: workflow-1
+
 - href: https://tidyverse.tidyverse.org/articles/paper.html
   text: Welcome to the Tidyverse
 
-- book: r4ds-1.4
+- book: r4ds2-1.4
 
-- book: r4ds-1.5
+- book: r4ds2-1.5
 
 - book: cheatsheets-rstudio-ide
   desc: >
