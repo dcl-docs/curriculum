@@ -1,0 +1,14 @@
+title: Code basics
+theme: workflow
+needs: [setup]
+
+desc: |
+  In this unit, you'll learn the basics of writing and running R code, and how
+  to access any package's or function's documentation. Learning to use
+  documentation is an important part of learning and using any programming
+  language. R and RStudio make it easy to find and use documentation.
+
+readings:
+- book: r4ds2-3
+
+- book: workflow-2
