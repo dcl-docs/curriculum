@@ -1,6 +1,6 @@
 title: Code style
 theme: communicate
-needs: [setup]
+needs: [coding-basics]
 
 desc: |
   Code style is simultaneously incredibly important and utterly trivial.
@@ -16,6 +16,8 @@ desc: |
 #  make it very easy to apply the tidyverse style guide automatically.
 
 readings:
+- book: r4ds2-5
+
 - book: workflow-3
 
 - href: http://style.tidyverse.org
