@@ -1,6 +1,14 @@
 id,title,depth,href
-1,Documentation,1,https://dcl-workflow.stanford.edu/documentation.html
-2,Learning more,1,https://dcl-workflow.stanford.edu/learning-more.html
+1,Software installation,1,https://dcl-workflow.stanford.edu/software.html
+1.1,Mac computers,2,https://dcl-workflow.stanford.edu/software.html#mac-computers
+1.2,GitHub,2,https://dcl-workflow.stanford.edu/software.html#github
+1.3,Git,2,https://dcl-workflow.stanford.edu/software.html#git
+1.4,R,2,https://dcl-workflow.stanford.edu/software.html#r
+1.5,RStudio,2,https://dcl-workflow.stanford.edu/software.html#rstudio
+1.6,R packages,2,https://dcl-workflow.stanford.edu/software.html#r-packages
+1.7,Update R packages,2,https://dcl-workflow.stanford.edu/software.html#update-r-packages
+1.8,Configure RStudio,2,https://dcl-workflow.stanford.edu/software.html#configure-rstudio
+2,Documentation,1,https://dcl-workflow.stanford.edu/documentation.html
 3,Style guide,1,https://dcl-workflow.stanford.edu/style-guide.html
 3.1,Why does style matter?,2,https://dcl-workflow.stanford.edu/style-guide.html#why-does-style-matter
 3.2,Style helpers,2,https://dcl-workflow.stanford.edu/style-guide.html#style-helpers
@@ -11,56 +19,30 @@ id,title,depth,href
 4,RStudio code snippets,1,https://dcl-workflow.stanford.edu/rstudio-snippets.html
 4.1,tv snippet,2,https://dcl-workflow.stanford.edu/rstudio-snippets.html#tv-snippet
 4.2,rscript snippet,2,https://dcl-workflow.stanford.edu/rstudio-snippets.html#rscript-snippet
-5,Introduction,1,https://dcl-workflow.stanford.edu/project-workflow.html
-6,Setup,1,https://dcl-workflow.stanford.edu/project-setup.html
+5,Project introduction,1,https://dcl-workflow.stanford.edu/project-introduction.html
+6,Project setup,1,https://dcl-workflow.stanford.edu/project-setup.html
 6.1,Create a project,2,https://dcl-workflow.stanford.edu/project-setup.html#create-a-project
 6.2,Setup GitHub,2,https://dcl-workflow.stanford.edu/project-setup.html#setup-github
 6.2.1,GitHub token,3,https://dcl-workflow.stanford.edu/project-setup.html#github-token
 6.2.2,use_git(),3,https://dcl-workflow.stanford.edu/project-setup.html#use_git
 6.2.3,use_github(),3,https://dcl-workflow.stanford.edu/project-setup.html#use_github
-7,Organization,1,https://dcl-workflow.stanford.edu/organization.html
-7.1,Directories,2,https://dcl-workflow.stanford.edu/organization.html#directories
-7.1.1,data-raw,3,https://dcl-workflow.stanford.edu/organization.html#data-raw
-7.1.2,scripts,3,https://dcl-workflow.stanford.edu/organization.html#scripts
-7.1.3,data,3,https://dcl-workflow.stanford.edu/organization.html#data
-7.1.4,docs,3,https://dcl-workflow.stanford.edu/organization.html#docs
-7.1.5,eda,3,https://dcl-workflow.stanford.edu/organization.html#eda
-7.1.6,reports,3,https://dcl-workflow.stanford.edu/organization.html#reports
-7.2,File paths,2,https://dcl-workflow.stanford.edu/organization.html#file-paths
-7.3,R Markdown template,2,https://dcl-workflow.stanford.edu/organization.html#r-markdown-template
-7.4,Make,2,https://dcl-workflow.stanford.edu/organization.html#make
-7.4.1,Create a makefile,3,https://dcl-workflow.stanford.edu/organization.html#create-a-makefile
-7.4.2,Run Make,3,https://dcl-workflow.stanford.edu/organization.html#run-make
+7,Project organization,1,https://dcl-workflow.stanford.edu/project-organization.html
+7.1,Directories,2,https://dcl-workflow.stanford.edu/project-organization.html#directories
+7.1.1,data-raw,3,https://dcl-workflow.stanford.edu/project-organization.html#data-raw
+7.1.2,scripts,3,https://dcl-workflow.stanford.edu/project-organization.html#scripts
+7.1.3,data,3,https://dcl-workflow.stanford.edu/project-organization.html#data
+7.1.4,docs,3,https://dcl-workflow.stanford.edu/project-organization.html#docs
+7.1.5,eda,3,https://dcl-workflow.stanford.edu/project-organization.html#eda
+7.1.6,reports,3,https://dcl-workflow.stanford.edu/project-organization.html#reports
+7.2,File paths,2,https://dcl-workflow.stanford.edu/project-organization.html#file-paths
+7.3,R Markdown template,2,https://dcl-workflow.stanford.edu/project-organization.html#r-markdown-template
+7.4,Make,2,https://dcl-workflow.stanford.edu/project-organization.html#make
+7.4.1,Create a makefile,3,https://dcl-workflow.stanford.edu/project-organization.html#create-a-makefile
+7.4.2,Run Make,3,https://dcl-workflow.stanford.edu/project-organization.html#run-make
 8,Scripts,1,https://dcl-workflow.stanford.edu/scripts.html
 9,Getting help,1,https://dcl-workflow.stanford.edu/getting-help.html
 9.1,Help yourself,2,https://dcl-workflow.stanford.edu/getting-help.html#help-yourself
 9.2,Get help from others,2,https://dcl-workflow.stanford.edu/getting-help.html#get-help-from-others
 9.2.1,The reprex package,3,https://dcl-workflow.stanford.edu/getting-help.html#reprex-pkg
 9.2.2,More resources on asking good questions,3,https://dcl-workflow.stanford.edu/getting-help.html#more-resources-on-asking-good-questions
-10,Pull requests,1,https://dcl-workflow.stanford.edu/pull-requests.html
-10.1,Quick fixes to bookdown books,2,https://dcl-workflow.stanford.edu/pull-requests.html#quick-fixes-to-bookdown-books
-10.2,Fork-and-branch workflow,2,https://dcl-workflow.stanford.edu/pull-requests.html#fork-and-branch-workflow
-10.2.1,Fork the original repository,3,https://dcl-workflow.stanford.edu/pull-requests.html#fork-the-original-repository
-10.2.2,Clone you fork,3,https://dcl-workflow.stanford.edu/pull-requests.html#clone-you-fork
-10.2.3,Add a remote for the original repository,3,https://dcl-workflow.stanford.edu/pull-requests.html#add-a-remote-for-the-original-repository
-10.2.4,Create a new branch,3,https://dcl-workflow.stanford.edu/pull-requests.html#create-a-new-branch
-10.2.5,Make changes in your branch,3,https://dcl-workflow.stanford.edu/pull-requests.html#make-changes-in-your-branch
-10.2.6,Push your changes,3,https://dcl-workflow.stanford.edu/pull-requests.html#push-your-changes
-10.2.7,Open a pull request,3,https://dcl-workflow.stanford.edu/pull-requests.html#open-a-pull-request
-10.2.8,Sync your fork,3,https://dcl-workflow.stanford.edu/pull-requests.html#sync-your-fork
-10.2.9,Checkout master and repeat,3,https://dcl-workflow.stanford.edu/pull-requests.html#checkout-master-and-repeat
-11,Introduction,1,https://dcl-workflow.stanford.edu/remote-computing.html
-12,R scripts on a remote machine,1,https://dcl-workflow.stanford.edu/rscripts-remote.html
-12.1,Setup,2,https://dcl-workflow.stanford.edu/rscripts-remote.html#setup-1
-12.1.1,Install XQuartz / MobaXterm,3,https://dcl-workflow.stanford.edu/rscripts-remote.html#install-xquartz-mobaxterm
-12.1.2,Install Kerberos,3,https://dcl-workflow.stanford.edu/rscripts-remote.html#install-kerberos
-12.1.3,Create aliases,3,https://dcl-workflow.stanford.edu/rscripts-remote.html#create-aliases
-12.1.4,Source .zshrc,3,https://dcl-workflow.stanford.edu/rscripts-remote.html#source-.zshrc
-12.1.5,Edit .ssh/config,3,https://dcl-workflow.stanford.edu/rscripts-remote.html#edit-.sshconfig
-12.1.6,Log into rice,3,https://dcl-workflow.stanford.edu/rscripts-remote.html#log-into-rice
-12.1.7,Install R packages,3,https://dcl-workflow.stanford.edu/rscripts-remote.html#install-r-packages
-12.2,Run scripts with Rscript,2,https://dcl-workflow.stanford.edu/rscripts-remote.html#run-scripts-with-rscript
-12.2.1,scp,3,https://dcl-workflow.stanford.edu/rscripts-remote.html#scp
-12.2.2,Copy your script to rice,3,https://dcl-workflow.stanford.edu/rscripts-remote.html#copy-your-script-to-rice
-12.2.3,Run your script,3,https://dcl-workflow.stanford.edu/rscripts-remote.html#run-your-script
-12.2.4,Copy results from rice,3,https://dcl-workflow.stanford.edu/rscripts-remote.html#copy-results-from-rice
+10,Learning more,1,https://dcl-workflow.stanford.edu/learning-more.html
