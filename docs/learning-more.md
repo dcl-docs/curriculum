@@ -13,6 +13,6 @@ up-to-date with new developments.
 
 ## Readings
 
-  * [Learning more](https://dcl-workflow.stanford.edu/learning-more.html) [workflow-2]
+  * [Documentation](https://dcl-workflow.stanford.edu/documentation.html) [workflow-2]
 
 

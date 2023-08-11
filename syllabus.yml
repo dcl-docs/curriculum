@@ -3,7 +3,7 @@ cur-week: 10
 weeks:
   week-01:
   - setup
-  - documentation
+  - coding-basics
   - code-style
   - tidy-data
   - data-basics

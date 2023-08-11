@@ -2,9 +2,11 @@ title: Getting help
 theme: communicate
 needs: coding-basics
 desc: |
-  It's important to understand how (and when) to ask for help. In this reading,
+  It's important to understand how (and when) to ask for help. In these readings,
   you'll learn where to go to ask your R questions and how to ask those
   questions effectively with the help of the reprex package.
   
 readings:
+- book: r4ds2-9
+
 - book: workflow-9

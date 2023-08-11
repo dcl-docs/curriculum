@@ -45,7 +45,7 @@ title: Theme index
 <tr>
 <td></td>
   <td colspan="6"></td>
-  <td colspan="6"><a class="workflow" href="documentation.html">Documentation</a></td>
+  <td colspan="6"><a class="workflow" href="coding-basics.html">Coding basics</a></td>
 </tr>
 <tr>
 <td></td>

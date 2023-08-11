@@ -4,10 +4,14 @@ needs:
 
 desc: |
   Good project workflow habits can help you stay organized and sane, avoid mistakes,
-  and produce better work. In this reading, we'll go over our approach to project
+  and produce better work. In these readings, we'll go over our approach to project
   workflow.
   
 readings:
+- book: r4ds2-7.2
 - book: workflow-5
 - book: workflow-6
 - book: workflow-7
+- book: r4ds2-7.1
+- book: workflow-4.2
+- book: workflow-8

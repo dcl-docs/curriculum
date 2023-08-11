@@ -64,13 +64,13 @@ by John Rauser
 
 Slides at <http://www.slideshare.net/JohnRauser/how-humans-see-data>
 
-## RMarkdown homepage {#rmarkdown}
+## R Markdown homepage {#rmarkdown}
 
 <http://rmarkdown.rstudio.com/>
 
-The official RStudio source of RMarkdown documentation. We're only scraping the
-surface of RMarkdown's capabilities in this course; read here to unlock more of
-its power.
+The official RStudio source of R Markdown documentation. We're only scraping
+the surface of R Markdown's capabilities in this course; read here to unlock
+more of its power.
 
 ## A Tale of Twenty-Two Million Citi Bike Rides: Analyzing the NYC Bike Share System {#schneider-bikes}
 by Todd W. Schneider

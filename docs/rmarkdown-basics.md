@@ -29,5 +29,5 @@ your results _and_ your process.
 ## Supplemental readings
 
 * [Getting Started with R Markdown](supplements.html#grolemund-rmarkdown)
-* [RMarkdown homepage](supplements.html#rmarkdown)
+* [R Markdown homepage](supplements.html#rmarkdown)
 
